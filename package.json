@@ -12,8 +12,10 @@
     "format:check": "prettier --check ."
   },
   "dependencies": {
+    "@google/genai": "^1.4.0",
     "@tailwindcss/vite": "^4.1.8",
     "install": "^0.13.0",
+    "lucide-react": "^0.514.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "tailwindcss": "^4.1.8"

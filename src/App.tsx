@@ -1,4 +1,4 @@
-import Header from "./sections/header";
+import Header from './sections/header';
 
 function App() {
   return (
