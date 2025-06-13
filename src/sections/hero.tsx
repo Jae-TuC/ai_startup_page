@@ -7,8 +7,8 @@ const Hero = () => {
 
       <div className="relative mx-auto px-4 md:px-0">
         <div className="absolute top-[460px] left-0 -z-10 h-[200px] w-full rounded-2xl bg-[#9855FF]/70 blur-2xl md:top-[500px] md:h-[500px] md:w-full md:blur-3xl" />
-        <div className="absolute top-80 left-1/2 -z-10 mt-20 hidden size-[35.563rem] -translate-x-1/2 rounded-full border-1 border-white/20 bg-[#622A9A] blur-2xl md:block" />
-        <div className="absolute top-50 left-1/2 -z-10 mt-20 hidden size-[51.563rem] -translate-x-1/2 rounded-full border-1 border-white/20 bg-[#622A9A] blur-[534px] md:block" />
+        <div className="absolute top-80 left-1/2 -z-10 mt-20 hidden size-[35.563rem] -translate-x-1/2 rounded-full border-1 border-white/20 bg-[#622A9A]/70 blur-2xl md:block" />
+        <div className="absolute top-50 left-1/2 -z-10 mt-20 hidden size-[51.563rem] -translate-x-1/2 rounded-full border-1 border-white/20 bg-[#622A9A]/70 blur-[534px] md:block" />
 
         <div className="absolute top-30 left-0 -z-10 mt-20 h-full w-full md:top-45">
           <div
