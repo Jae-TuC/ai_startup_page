@@ -6,7 +6,6 @@ const Hero = () => {
       <div className="absolute -bottom-10 left-0 z-2 h-[300px] w-full bg-gradient-to-t from-black from-40% to-transparent" />
 
       <div className="relative mx-auto px-4 md:px-0">
-        <div className="absolute top-[460px] left-0 -z-10 h-[200px] w-full rounded-2xl bg-[#9855FF]/70 blur-2xl md:top-[500px] md:h-[500px] md:w-full md:blur-3xl" />
         <div className="absolute top-80 left-1/2 -z-10 mt-20 hidden size-[35.563rem] -translate-x-1/2 rounded-full border-1 border-white/20 bg-[#622A9A]/70 blur-2xl md:block" />
         <div className="absolute top-50 left-1/2 -z-10 mt-20 hidden size-[51.563rem] -translate-x-1/2 rounded-full border-1 border-white/20 bg-[#622A9A]/70 blur-[534px] md:block" />
 
@@ -61,6 +60,8 @@ const Hero = () => {
         </div>
 
         <div className="relative mt-[3.375rem] rounded-2xl border-1 border-white/20 bg-gradient-to-r from-black from-10% via-transparent via-50% to-black p-2.5 md:mt-[2.055rem]">
+          <div className="absolute top-0 left-0 -z-10 h-[200px] w-full rounded-2xl bg-[#9855FF] blur-2xl md:h-[500px] md:w-full md:blur-3xl" />
+
           <div
             className="z-10 aspect-video rounded-[0.625rem] border-1 border-white/20 bg-cover"
             style={{
